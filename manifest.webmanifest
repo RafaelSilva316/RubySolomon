@@ -1,0 +1,15 @@
+// change srcs
+{
+  "icons": [
+    {
+      "src": "img/favicon-android-touch.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "img/favicon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
