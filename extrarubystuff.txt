@@ -1,0 +1,17 @@
+resource library (list of books)
+about me
+  -approach
+  -background
+  -professional page
+
+quotes interspersed
+art photos interspersed
+
+focus
+-young adults
+grief loss
+-sexual identity
+---sexual health/sexual functioning
+---sexual orientation
+---gender identity
+---monogamous and nonmonogamous relationship structures

@@ -1,0 +1,109 @@
+@media (max-width: 75em) {
+  html {
+    /* changing the definition of rem 
+     makes everything smaller because we've used rem  */
+    font-size: 56.25%;
+  }
+}
+
+@media (max-width: 1130px) {
+  .cta-list {
+    gap: 1.6rem;
+  }
+
+  .hero-txt-box .btn-cta:link,
+  .cta-list .btn-cta:link,
+  .hero-txt-box .btn-cta:visited,
+  .cta-list .btn-cta:visited {
+    /* background-color: red; */
+    /* padding: 1.2rem; */
+    font-size: 2.2rem;
+  }
+
+  .cta-list .btn-cta:link,
+  .cta-list .btn-cta:visited {
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+  }
+
+  .cta-list-link:link,
+  .cta-list-link:visited {
+    font-size: 1.8rem;
+  }
+
+  .flex-center {
+    display: flex;
+    align-items: center;
+  }
+
+  /* .flex-center .btn-cta {
+    padding-top: 1.8rem;
+    padding-bottom: 1.8rem;
+  } */
+
+  .about {
+    grid-template-columns: 1fr;
+    gap: 6rem;
+  }
+
+  .about-text {
+    margin-bottom: 0;
+  }
+
+  .about-tile {
+    height: 36rem;
+    margin-top: 6rem;
+  }
+
+  .about-img-box {
+    /* padding-bottom: 10rem; */
+  }
+
+  .about-txt-box h3 {
+    text-align: center;
+  }
+
+  .one {
+    order: 1;
+  }
+
+  .two {
+    order: 2;
+  }
+
+  .three {
+    order: 4;
+  }
+
+  .four {
+    order: 3;
+  }
+
+  .five {
+    order: 5;
+  }
+
+  .six {
+    order: 6;
+  }
+
+  .form-card {
+    width: 75%;
+  }
+}
+
+@media (max-width: 770px) {
+  html {
+    font-size: 48%;
+  }
+  .cta-list,
+  .sticky-contact {
+    display: none;
+  }
+  .menu-icon {
+    display: inline;
+  }
+  .hero-img {
+    margin-top: 5rem;
+  }
+}
