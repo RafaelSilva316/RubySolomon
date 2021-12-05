@@ -25,5 +25,6 @@ menuButton.addEventListener("click", () => {
 
   hiddenMenu.appendChild(menuList);
   hiddenMenu.classList.toggle("show-menu");
+  hiddenMenu.classList.toggle("hide");
   // console.log("added?");
 });

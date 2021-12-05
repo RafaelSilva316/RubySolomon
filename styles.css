@@ -160,6 +160,25 @@ body {
   z-index: 99999;
   box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.1);
 }
+.hide {
+  display: none;
+}
+
+.hidden-menu {
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  height: 20rem;
+  top: 6rem;
+  bottom: 0;
+  z-index: 100000;
+}
+
+.hidden-menu li {
+  /* border-bottom: #555 1px solid; */
+  padding: 0.5rem 0;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
 
 .sticky .section-hero {
   margin-top: 9.6rem;
