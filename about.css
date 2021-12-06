@@ -64,3 +64,57 @@
 .about-gallery-description {
   font-size: 1.6rem;
 }
+
+/* ABOUT PAGE SECTION */
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  margin: 0 auto;
+  padding: 6rem;
+  row-gap: 6.4rem;
+}
+
+.approach,
+.quote-1,
+.quote-2 {
+  grid-column: span 2;
+}
+
+.about-approach-heading {
+  font-size: 4.8rem;
+  text-align: center;
+}
+
+.about-approach-heading {
+  font-family: "Merriweather", serif;
+}
+
+.about-approach-txt {
+  max-width: 80rem;
+
+  font-size: 2.4rem;
+  line-height: 1.8;
+  margin: 2rem auto;
+}
+
+.background,
+.professional {
+  padding: 8rem;
+}
+
+.about-background-txt,
+.about-professional-list {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  margin: 2rem auto;
+  /* color: #7d8cc4; */
+  color: #40518f;
+}
+.about-professional-list {
+  list-style-type: none;
+}
+.about-professional-list li {
+  margin: 2rem 0;
+}

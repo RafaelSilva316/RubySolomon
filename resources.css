@@ -16,7 +16,8 @@ body {
   color: #bee7e8;
   background-color: #594157;
   padding: 3rem;
-  font-size: 2.4rem;
+  font-size: 2.8rem;
+  font-weight: 500;
   margin-bottom: 2rem;
 }
 
@@ -41,7 +42,8 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 5rem;
-  margin: 5rem;
+  margin: 5rem auto;
+  max-width: 120rem;
 }
 
 .book-card {

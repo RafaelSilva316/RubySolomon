@@ -513,3 +513,26 @@ textarea:focus {
 .b-s {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
+
+.quote {
+  width: 100%;
+  padding: 8.4rem;
+  background-color: #bee7e8;
+  /* margin: 2rem auto; */
+  color: #594157;
+}
+
+.quote-txt {
+  margin: 2rem auto;
+  font-family: "Esteban", serif;
+  max-width: 80rem;
+  font-size: 2.8rem;
+  line-height: 1.8;
+}
+.quote-source,
+.quote-author {
+  margin: 0 auto;
+  max-width: 80rem;
+  font-size: 1.2rem;
+  text-align: right;
+}
