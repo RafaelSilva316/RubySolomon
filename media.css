@@ -90,6 +90,10 @@
   .form-card {
     width: 75%;
   }
+
+  .book-gallery {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 770px) {
@@ -134,8 +138,21 @@
     padding: 1rem 0;
     cursor: pointer;
   }
+
   .show-menu li {
+    text-align: center;
     list-style: none;
+  }
+
+  .cta-list-link:link,
+  .cta-list-link:visited {
+    font-size: 3.2rem;
+  }
+
+  .show-menu a:link,
+  .show-menu a:visited {
+    text-decoration: none;
+    font-size: ;
     text-align: center;
     margin-bottom: 1rem;
   }
