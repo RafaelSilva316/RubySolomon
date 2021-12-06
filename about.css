@@ -62,7 +62,7 @@
 .gallery-img img {
 }
 .about-gallery-description {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 
 /* ABOUT PAGE SECTION */
@@ -117,4 +117,72 @@
 }
 .about-professional-list li {
   margin: 2rem 0;
+}
+
+@media (max-width: 960px) {
+  .intro-heading {
+    font-size: 3.6rem;
+  }
+  .intro-description {
+    font-size: 2.2rem;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+  .approach,
+  .quote-1,
+  .quote-2 {
+    grid-column: span 1;
+  }
+}
+@media (max-width: 720px) {
+  .intro-card {
+    grid-template-columns: 1fr;
+  }
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+  .gallery-card {
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+    gap: 1rem;
+  }
+
+  .quote {
+    padding: 3.8rem 2.4rem;
+  }
+  .quote-txt {
+    line-height: 1.4;
+    font-size: 2.4;
+  }
+  .about-grid {
+    padding: 0;
+  }
+  .about-background-heading,
+  .about-professional-heading {
+    text-align: center;
+  }
+  .about-approach-heading {
+    font-size: 3.6rem;
+  }
+  .about-approach-txt {
+    line-height: 1.2;
+    margin: 0 1rem;
+    font-size: 1.8rem;
+  }
+  .background,
+  .professional {
+    padding: 1.8rem;
+  }
+  .intro-about {
+    margin-top: 6.6rem;
+  }
+  /* .gallery-img {
+    flex-grow: 0;
+  } */
 }

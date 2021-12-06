@@ -486,11 +486,14 @@ textarea:focus {
 
 .footer {
   padding: 2.4rem;
+  padding-top: 0;
   font-size: 1.6rem;
   color: #244558;
 }
 
 .footer-nav {
+  border-top: 1px solid #ddd;
+  padding-top: 2.4rem;
   max-width: 64rem;
   margin: 0 auto;
   display: grid;

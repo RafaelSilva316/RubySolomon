@@ -55,9 +55,9 @@
     margin-top: 6rem;
   }
 
-  .about-img-box {
-    /* padding-bottom: 10rem; */
-  }
+  /* .about-img-box {
+     padding-bottom: 10rem; 
+  } */
 
   .about-txt-box h3 {
     text-align: center;
@@ -152,7 +152,7 @@
   .show-menu a:link,
   .show-menu a:visited {
     text-decoration: none;
-    font-size: ;
+    /* font-size: ; */
     text-align: center;
     margin-bottom: 1rem;
   }
