@@ -211,7 +211,7 @@ body {
   /* width: 100%; */
   /* height: 100rem;
   background-position: center; */
-  margin-bottom: 80px;
+  /* margin-bottom: 80px; */
 }
 
 .hero-img {
@@ -285,7 +285,7 @@ h1 {
   grid-template-columns: 4fr 6fr;
   max-width: 120rem;
   margin: 0 auto;
-  margin-top: 9.6rem;
+  /* margin-top: 9.6rem; */
   gap: 8rem;
   align-items: start;
   padding-bottom: 9.6rem;
@@ -344,7 +344,7 @@ h2 {
   display: grid;
   max-width: 120rem;
   margin: 0 auto;
-  margin-top: 12.8rem;
+  /* margin-top: 12.8rem; */
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(3, 1fr);
   gap: 8rem;

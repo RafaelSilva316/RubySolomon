@@ -146,6 +146,7 @@
   }
   .gallery {
     grid-template-columns: 1fr;
+    padding: 4rem 0;
   }
   .gallery-card {
     display: grid;
