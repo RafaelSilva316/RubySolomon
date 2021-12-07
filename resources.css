@@ -74,3 +74,17 @@ body {
 .footer {
   background-color: #eee;
 }
+
+.book-title a:link,
+.book-title a:visited {
+  color: #555;
+  text-decoration: none;
+}
+.book-title a:hover,
+.book-title a:active {
+  color: #aaa;
+}
+
+.website-card {
+  grid-column: span 2;
+}

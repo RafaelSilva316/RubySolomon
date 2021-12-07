@@ -1,0 +1,129 @@
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 120rem;
+  margin: 12rem auto;
+  /* margin-top: 12rem; */
+  row-gap: 4.8rem;
+}
+
+.services-pricing-heading,
+.commitment-heading {
+  font-family: "Merriweather", serif;
+}
+
+.services-main-heading {
+  color: #594157;
+  grid-column: span 2;
+  text-align: center;
+}
+
+.services-hero-img-box {
+  grid-column: span 2;
+}
+
+.services-hero-img-box img {
+  width: 100%;
+}
+
+.services-intro {
+  padding: 8.4rem;
+  background-color: #eceff7;
+}
+
+.services-paragraph {
+  color: #594157;
+  font-size: 2rem;
+  line-height: 1.4;
+  font-weight: 500;
+}
+.services-paragraph ul {
+  color: #594157;
+  font-size: 2rem;
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+.services-pricing-description {
+  background-color: #726da8;
+  padding: 8.4rem;
+  color: #eee;
+}
+
+.services-pricing-heading {
+  font-size: 3.2rem;
+  text-align: center;
+  margin-bottom: 4.8rem;
+}
+
+.services-pricing-description ul {
+  font-size: 2.2rem;
+  line-height: 2;
+  text-align: center;
+}
+.services-pricing-description li {
+  margin-bottom: 3.2rem;
+}
+
+.services-commitment {
+  background-color: #a0d2db;
+  color: #594157;
+  font-size: 2.4rem;
+  grid-column: span 2;
+  padding: 8.4rem;
+  line-height: 1.6;
+}
+
+.commitment-heading {
+  font-weight: 700;
+  text-align: center;
+  font-size: 3.6rem;
+  margin-bottom: 3.6rem;
+}
+.btn-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12rem;
+}
+.btn-box .btn-cta:visited,
+.btn-box .btn-cta:link {
+  font-size: 4.8rem;
+}
+
+/* QUERIES */
+@media (max-width: 1150px) {
+}
+
+@media (max-width: 860px) {
+  main {
+    row-gap: 0;
+    margin-bottom: 6rem;
+  }
+}
+
+@media (max-width: 760px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+  .services-main-heading,
+  .services-hero-img-box,
+  .services-commitment {
+    grid-column: span 1;
+  }
+}
+
+@media (max-width: 480px) {
+  .services-intro,
+  .services-pricing-description,
+  .services-commitment {
+    padding: 4.8rem;
+  }
+  .btn-box .btn-cta:visited,
+  .btn-box .btn-cta:link {
+    font-size: 3.6rem;
+  }
+  .btn-box {
+    margin-bottom: 6rem;
+  }
+}

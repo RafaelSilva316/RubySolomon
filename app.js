@@ -14,6 +14,12 @@ resourcesA.innerHTML = "resources";
 resourcesA.setAttribute("href", "./resources.html");
 resources.appendChild(resourcesA);
 
+let services = document.createElement("li");
+let servicesA = document.createElement("a");
+servicesA.innerHTML = "services";
+servicesA.setAttribute("href", "./services.html");
+services.appendChild(servicesA);
+
 let phone = document.createElement("li");
 let phoneA = document.createElement("a");
 phoneA.innerHTML = "518-555-5555";
@@ -26,7 +32,7 @@ emailA.innerHTML = "email me";
 emailA.setAttribute("href", "mailto:rafaelsilva316@gmail.com");
 email.appendChild(emailA);
 
-menuList.append(about, resources, phone, email);
+menuList.append(about, resources, services, phone, email);
 let hiddenNavList = menuList.childNodes;
 
 hiddenNavList.forEach(function (li) {
